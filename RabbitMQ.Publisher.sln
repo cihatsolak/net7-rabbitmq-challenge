@@ -5,7 +5,9 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SimplePublisherConsumerApp", "SimplePublisherConsumerApp", "{BEDC9025-9E93-4F03-AA69-B4FB9604A43A}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Publisher", "SimplePublisherConsumerApp\RabbitMQ.Publisher.csproj", "{462D0A1C-3E66-49AE-B000-935A20C14A4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Consumer", "SimplePublisherConsumerApp\RabbitMQ.Consumer\RabbitMQ.Consumer.csproj", "{D3341F95-5D89-4219-87C4-2973903C7597}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.Publisher", "SimplePublisherConsumerApp\RabbitMQ.Publisher\RabbitMQ.Publisher.csproj", "{1075B230-9819-4210-A3A8-9242B2894021}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,16 +15,21 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{462D0A1C-3E66-49AE-B000-935A20C14A4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{462D0A1C-3E66-49AE-B000-935A20C14A4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{462D0A1C-3E66-49AE-B000-935A20C14A4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{462D0A1C-3E66-49AE-B000-935A20C14A4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3341F95-5D89-4219-87C4-2973903C7597}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3341F95-5D89-4219-87C4-2973903C7597}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3341F95-5D89-4219-87C4-2973903C7597}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3341F95-5D89-4219-87C4-2973903C7597}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1075B230-9819-4210-A3A8-9242B2894021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1075B230-9819-4210-A3A8-9242B2894021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1075B230-9819-4210-A3A8-9242B2894021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1075B230-9819-4210-A3A8-9242B2894021}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
-		{462D0A1C-3E66-49AE-B000-935A20C14A4E} = {BEDC9025-9E93-4F03-AA69-B4FB9604A43A}
+		{D3341F95-5D89-4219-87C4-2973903C7597} = {BEDC9025-9E93-4F03-AA69-B4FB9604A43A}
+		{1075B230-9819-4210-A3A8-9242B2894021} = {BEDC9025-9E93-4F03-AA69-B4FB9604A43A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C52BDCE9-AAEE-4479-9E50-AB601BB53EDA}
