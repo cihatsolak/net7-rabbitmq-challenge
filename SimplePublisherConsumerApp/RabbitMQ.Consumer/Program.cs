@@ -31,6 +31,11 @@ eventingBasicConsumer.Received += (sender, args) =>
 {
     string message = Encoding.UTF8.GetString(args.Body.Span);
     Console.WriteLine("Message: {0}", message);
+
+    channel.BasicAck(
+        deliveryTag: args.DeliveryTag,
+        multiple: false
+        );
 };
 
 Console.ReadKey();
