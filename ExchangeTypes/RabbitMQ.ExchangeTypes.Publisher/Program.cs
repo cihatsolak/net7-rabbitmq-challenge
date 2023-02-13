@@ -19,10 +19,14 @@ channel.ExchangeDeclare(
     autoDelete: false
     );
 
-channel.BasicPublish(
+
+for (int i = 1; i < 15; i++)
+{
+    channel.BasicPublish(
     exchange: "direct-exchange-example",
     routingKey: "bank",
-    body: Encoding.UTF8.GetBytes("Hello")
+    body: Encoding.UTF8.GetBytes($"Hello {i}")
     );
+}
 
 Console.ReadKey();
