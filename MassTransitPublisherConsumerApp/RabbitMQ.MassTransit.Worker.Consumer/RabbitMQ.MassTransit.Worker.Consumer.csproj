@@ -8,6 +8,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.0" />
+	  <PackageReference Include="MassTransit.RabbitMQ" Version="8.0.14" />
+	  <PackageReference Include="Microsoft.Extensions.Hosting" Version="7.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RabbitMQ.MassTransit.Shared\RabbitMQ.MassTransit.Shared.csproj" />
   </ItemGroup>
 </Project>

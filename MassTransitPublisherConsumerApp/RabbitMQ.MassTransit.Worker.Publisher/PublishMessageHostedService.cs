@@ -21,6 +21,8 @@ namespace RabbitMQ.MassTransit.Worker.Publisher
                 };
 
                 await _publishEndpoint.Publish<IMessage>(exampleMessage, stoppingToken);
+
+                await Task.Delay(TimeSpan.FromSeconds(2), stoppingToken);
             }
         }
     }

@@ -1,1 +1,3 @@
-﻿global using RabbitMQ.MassTransit.Worker.Consumer;
+﻿global using MassTransit;
+global using RabbitMQ.MassTransit.Shared.Messages;
+global using RabbitMQ.MassTransit.Worker.Consumer.Consumers;

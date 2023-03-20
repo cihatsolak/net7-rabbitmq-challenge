@@ -1,7 +1,13 @@
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
     {
-        services.AddHostedService<PublishMessageHostedService>();
+        services.AddHostedService<PublishMessageHostedService>(provider =>
+        {
+            using var scope = provider.CreateAsyncScope();
+            IPublishEndpoint publishEndpoint = scope.ServiceProvider.GetRequiredService<IPublishEndpoint>();
+
+            return new PublishMessageHostedService(publishEndpoint);
+        });
 
         services.AddMassTransit(configure =>
         {
