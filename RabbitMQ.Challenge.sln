@@ -23,11 +23,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.MessageDesigns.Pub
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MassTransitPublisherConsumerApp", "MassTransitPublisherConsumerApp", "{12600779-CAA9-483B-AF29-A80B35609370}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.MassTransit.Consumer", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Consumer\RabbitMQ.MassTransit.Consumer.csproj", "{4F120831-6339-4018-8769-A97815A36CBE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.MassTransit.Consumer", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Consumer\RabbitMQ.MassTransit.Consumer.csproj", "{4F120831-6339-4018-8769-A97815A36CBE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.MassTransit.Publisher", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Publisher\RabbitMQ.MassTransit.Publisher.csproj", "{17F5CEF3-F86F-436C-8D22-1BE091F69E3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.MassTransit.Publisher", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Publisher\RabbitMQ.MassTransit.Publisher.csproj", "{17F5CEF3-F86F-436C-8D22-1BE091F69E3A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.MassTransit.Shared", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Shared\RabbitMQ.MassTransit.Shared.csproj", "{0BDF2300-062E-4D5C-8D21-76ED597FFFF5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.MassTransit.Shared", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Shared\RabbitMQ.MassTransit.Shared.csproj", "{0BDF2300-062E-4D5C-8D21-76ED597FFFF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.MassTransit.Worker.Consumer", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Worker.Consumer\RabbitMQ.MassTransit.Worker.Consumer.csproj", "{321796E2-BE87-4D13-90B2-39815147A26A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.MassTransit.Worker.Publisher", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Worker.Publisher\RabbitMQ.MassTransit.Worker.Publisher.csproj", "{E9462BF4-04C9-4E76-AA16-9E3D170455A8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -71,6 +75,14 @@ Global
 		{0BDF2300-062E-4D5C-8D21-76ED597FFFF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0BDF2300-062E-4D5C-8D21-76ED597FFFF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0BDF2300-062E-4D5C-8D21-76ED597FFFF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{321796E2-BE87-4D13-90B2-39815147A26A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{321796E2-BE87-4D13-90B2-39815147A26A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{321796E2-BE87-4D13-90B2-39815147A26A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{321796E2-BE87-4D13-90B2-39815147A26A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9462BF4-04C9-4E76-AA16-9E3D170455A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9462BF4-04C9-4E76-AA16-9E3D170455A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9462BF4-04C9-4E76-AA16-9E3D170455A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9462BF4-04C9-4E76-AA16-9E3D170455A8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -85,6 +97,8 @@ Global
 		{4F120831-6339-4018-8769-A97815A36CBE} = {12600779-CAA9-483B-AF29-A80B35609370}
 		{17F5CEF3-F86F-436C-8D22-1BE091F69E3A} = {12600779-CAA9-483B-AF29-A80B35609370}
 		{0BDF2300-062E-4D5C-8D21-76ED597FFFF5} = {12600779-CAA9-483B-AF29-A80B35609370}
+		{321796E2-BE87-4D13-90B2-39815147A26A} = {12600779-CAA9-483B-AF29-A80B35609370}
+		{E9462BF4-04C9-4E76-AA16-9E3D170455A8} = {12600779-CAA9-483B-AF29-A80B35609370}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C52BDCE9-AAEE-4479-9E50-AB601BB53EDA}
