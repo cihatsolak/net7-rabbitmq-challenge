@@ -29,9 +29,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.MassTransit.Publis
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.MassTransit.Shared", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Shared\RabbitMQ.MassTransit.Shared.csproj", "{0BDF2300-062E-4D5C-8D21-76ED597FFFF5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.MassTransit.Worker.Consumer", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Worker.Consumer\RabbitMQ.MassTransit.Worker.Consumer.csproj", "{321796E2-BE87-4D13-90B2-39815147A26A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.MassTransit.Worker.Consumer", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Worker.Consumer\RabbitMQ.MassTransit.Worker.Consumer.csproj", "{321796E2-BE87-4D13-90B2-39815147A26A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.MassTransit.Worker.Publisher", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Worker.Publisher\RabbitMQ.MassTransit.Worker.Publisher.csproj", "{E9462BF4-04C9-4E76-AA16-9E3D170455A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitMQ.MassTransit.Worker.Publisher", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.Worker.Publisher\RabbitMQ.MassTransit.Worker.Publisher.csproj", "{E9462BF4-04C9-4E76-AA16-9E3D170455A8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.MassTransit.ReqResPublisher", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.ReqResPublisher\RabbitMQ.MassTransit.ReqResPublisher.csproj", "{E26C3565-D9D8-42DA-AF0D-D61225858856}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ.MassTransit.ReqResConsumer", "MassTransitPublisherConsumerApp\RabbitMQ.MassTransit.ReqResConsumer\RabbitMQ.MassTransit.ReqResConsumer.csproj", "{D3665323-79D6-4ABD-A8DA-6C3BEF0B28E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -83,6 +87,14 @@ Global
 		{E9462BF4-04C9-4E76-AA16-9E3D170455A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9462BF4-04C9-4E76-AA16-9E3D170455A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9462BF4-04C9-4E76-AA16-9E3D170455A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E26C3565-D9D8-42DA-AF0D-D61225858856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E26C3565-D9D8-42DA-AF0D-D61225858856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E26C3565-D9D8-42DA-AF0D-D61225858856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E26C3565-D9D8-42DA-AF0D-D61225858856}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3665323-79D6-4ABD-A8DA-6C3BEF0B28E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3665323-79D6-4ABD-A8DA-6C3BEF0B28E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3665323-79D6-4ABD-A8DA-6C3BEF0B28E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3665323-79D6-4ABD-A8DA-6C3BEF0B28E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -99,6 +111,8 @@ Global
 		{0BDF2300-062E-4D5C-8D21-76ED597FFFF5} = {12600779-CAA9-483B-AF29-A80B35609370}
 		{321796E2-BE87-4D13-90B2-39815147A26A} = {12600779-CAA9-483B-AF29-A80B35609370}
 		{E9462BF4-04C9-4E76-AA16-9E3D170455A8} = {12600779-CAA9-483B-AF29-A80B35609370}
+		{E26C3565-D9D8-42DA-AF0D-D61225858856} = {12600779-CAA9-483B-AF29-A80B35609370}
+		{D3665323-79D6-4ABD-A8DA-6C3BEF0B28E8} = {12600779-CAA9-483B-AF29-A80B35609370}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {C52BDCE9-AAEE-4479-9E50-AB601BB53EDA}
